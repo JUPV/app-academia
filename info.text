@@ -1,0 +1,61 @@
+ImagePicker
+
+fornece acesso à interface do usuário do sistema para selecionar imagens e vídeos da biblioteca do telefone ou tirar uma foto com a câmera.
+
+--------------------------------------------------------
+
+FileSystem
+npx expo install expo-file-system
+
+fornece acesso a um sistema de arquivos armazenado localmente no dispositivo. Dentro da Expo Go, cada projeto tem um sistema de arquivos separado e não tem acesso ao sistema de arquivos de outros projetos da Expo. No entanto, ele pode salvar o conteúdo compartilhado por outros projetos no sistema de arquivos local, bem como compartilhar arquivos locais com outros projetos. Também é capaz de fazer upload e download de arquivos de URLs de rede.
+
+--------------------------------------------------------
+
+React Hook Form
+npm install react-hook-form
+
+Formulários de alto desempenho, flexíveis e extensíveis com validação fácil de usar.
+
+
+--------------------------------------------------------
+
+
+Schema Validation
+npm install @hookform/resolvers yup
+
+Também oferecemos suporte à validação de formulário baseada em esquema com Yup , Zod , Superstruct & Joi , onde você pode passar seu para useForm como uma configuração opcional. Ele validará seus dados de entrada em relação ao esquema e retornará com erros ou um resultado válido. schema
+
+--------------------------------------------------------
+
+Axios
+
+npm install axios
+
+Axios é um cliente HTTP baseado-em-promessas para o node.js e para o navegador. É isomórfico (= pode rodar no navegador e no node.js com a mesma base de código). No lado do servidor usa o código nativo do node.js - o modulo http, enquanto no lado do cliente (navegador) usa XMLHttpRequests.
+
+--------------------------------------------------------
+AsyncStorage
+
+npx expo install @react-native-async-storage/async-storage
+
+Uma API de armazenamento de valor-chave assíncrona, não criptografada e persistente, para o dispositivo.
+
+--------------------------------------------------------
+
+JWT => JSON WEB Token
+
+Oque que é ? = É um padrão de mercado que define um token no formato JSON para a troca de informações.
+
+Importante
+JWT não representa o mecanismo de autencação. Mas é um meio para a troca de informações no fluxo de autenticações.
+
+O JWT será utilizado para criarmos um fluxo de autenticação para gerenciar o acesso do usuário no app. Esse token será obtido por meio da requisição de login do usuário via email/senha e será anexado nas requisições futuras para ele ter acesso às rotas privadas.
+
+
+
+expo init trustsecurity blank ( TypeScript )
+
+- npm start # you can open iOS, Android, or web from here, or run them directly with the commands below.
+- npm run android
+- npm run ios # requires an iOS device or macOS for access to an iOS simulator
+- npm run web
